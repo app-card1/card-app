@@ -27,4 +27,4 @@
         <url>http://172-31-42-85:8081/artifactory/libs-release-local</url>
     </repository>
 </distributionManagement>
-</project>
+</project> 
