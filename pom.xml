@@ -19,12 +19,12 @@
     <snapshotRepository>
         <id>snapshots</id>
         <name>ip-172-31-42-85-snapshots</name>
-        <url>http://3.16.11.148:8081/artifactory/libs-snapshot-local</url>
+        <url>http://172-31-42-85:8081/artifactory/libs-snapshot-local</url>
     </snapshotRepository>
     <repository>
         <id>central</id>
         <name>ip-172-31-42-85-releases</name>
-        <url>http://3.16.11.148:8081/artifactory/libs-release-local</url>
+        <url>http://172-31-42-85:8081/artifactory/libs-release-local</url>
     </repository>
 </distributionManagement>
 </project>
