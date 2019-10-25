@@ -15,8 +15,9 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
-  <distributionManagement>
+ <distributionManagement>
     <snapshotRepository>
+<<<<<<< HEAD
         <id>snapshots</id>
         <name> ip-172-31-42-90-snapshots</name>
         <url>http://172-31-42-90:8081/artifactory/libs-snapshot-local</url>
@@ -25,6 +26,16 @@
         <id>central</id>
         <name> ip-172-31-42-90-releases</name>
         <url>http://172-31-42-90:8081/artifactory/libs-release-local</url>
+=======
+       <repository>
+        <id>central</id>
+        <name>ip-172-31-42-85-releases</name>
+        <url>http://172.31.42.85:8081/artifactory/libs-release</url>
+>>>>>>> 9cc4609d16816c245b36337fe6b716046d0d1df7
     </repository>
+        <id>snapshots</id>
+        <name>ip-172-31-42-85-snapshots</name>
+        <url>http://172.31.42.85:8081/artifactory/libs-snapshot</url>
+    </snapshotRepository>
 </distributionManagement>
 </project>
